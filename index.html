@@ -1,1 +1,161 @@
 
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <title>Biblioteca literară</title>
+
+    <style>
+        body {
+            background-color: #f5f0e6;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            color: #2b1d14;
+        }
+
+        header {
+            background-color: darkred;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            background-color: black;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            margin: 10px;
+            text-decoration: none;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        h2 {
+            color: #6b1e1e;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .autor {
+            background-color: white;
+            padding: 15px;
+            width: 300px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .autor img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            display: block;
+        }
+
+        iframe {
+            width: 420px;
+            height: 236px;
+            max-width: 100%;
+            border: none;
+            border-radius: 10px;
+        }
+
+        footer {
+            background-color: darkred;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Biblioteca literară</h1>
+</header>
+
+<nav>
+    <a href="#eminescu">Eminescu</a>
+    <a href="#caragiale">Caragiale</a>
+    <a href="#creanga">Creangă</a>
+</nav>
+
+<main>
+
+    <section id="introducere">
+        <p>
+            Literatura română reprezintă o parte importantă a culturii naționale,
+            prin operele și autorii care au contribuit la dezvoltarea limbii române.
+        </p>
+    </section>
+
+    <section id="eminescu">
+        <h2>Mihai Eminescu</h2>
+
+        <div class="container">
+            <article class="autor">
+                <img src="Eminescu.jpg" alt="Mihai Eminescu">
+                <p>Poet național al României.</p>
+                <p><strong>Operă:</strong> Luceafărul</p>
+            </article>
+        </div>
+    </section>
+
+    <section id="caragiale">
+        <h2>Ion Luca Caragiale</h2>
+
+        <div class="container">
+            <article class="autor">
+                <img src="Caragiale.jpg" alt="Ion Luca Caragiale">
+                <p>Dramaturg și prozator român.</p>
+                <p><strong>Operă:</strong> O scrisoare pierdută</p>
+            </article>
+        </div>
+    </section>
+
+    <section id="creanga">
+        <h2>Ion Creangă</h2>
+
+        <div class="container">
+            <article class="autor">
+                <img src="Creanga.jpg" alt="Ion Creangă">
+                <p>Autor de povești și povestiri.</p>
+                <p><strong>Operă:</strong> Amintiri din copilărie</p>
+            </article>
+        </div>
+    </section>
+
+<section id="video">
+    <h2>Video Mihai Eminescu</h2>
+
+    <iframe 
+        width="420" 
+        height="236"
+        src="https://www.youtube.com/embed/mSsx77muEnY"
+        title="Video Mihai Eminescu"
+        allowfullscreen>
+    </iframe>
+
+</section>
+
+</main>
+
+<footer>
+    <p>Tudor Alexandra-Maria</p>
+    <p>SID, anul III</p>
+</footer>
+
+</body>
+</html>
+
